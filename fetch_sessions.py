@@ -3,7 +3,7 @@
 Created on Wed Mar 11 14:10:28 2020
 
 Goes to loopbio vr web control server and downloads VR data files based on experiment title (or substring)
-Saves under usable names (KC_onto_fishID_dpf_EXP_iter, e.g. KC_onto_0000_07_OM_it00)
+Saves under usable names based on experiment name in VR (KC_onto_fishID_dpf_EXP_iter, e.g. KC_onto_0000_07_OM_it00)
 Other script (sort_sessions.py) will sort into folders by fishID and age
 Currently set to avoid re-saving files if they are alread on the session list
 Possible to do's: 
